@@ -10,22 +10,6 @@ body {
   padding: 0;
 }
 
-.background-white {
-  background-color: white;
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-
-.row-2-title {
-  background-color: white;
-  font-weight: bold;
-  margin: 1em;
-  padding: 1em;
-  border: 3px solid black;
-  border-radius: 3px;
-  box-shadow: 1px 1px 1px rgba(0,0,0,0.7);
-}
-
 .container {
   background-color: white;
   margin-bottom: 2em;
@@ -38,6 +22,13 @@ top row
   border-bottom: 1px solid black;
   background-image: url("../images/tactile_noise.png");
 }
+
+.background-white {
+  background-color: white;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
 
 .logo {
   padding: 3px;
@@ -73,6 +64,17 @@ second row
   background-image: url("../images/header.jpg");
   background-size: cover;
 }
+
+.row-2-title {
+  background-color: white;
+  font-weight: bold;
+  margin: 1em;
+  padding: 1em;
+  border: 3px solid black;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+
 
 /*=====================
 third row
