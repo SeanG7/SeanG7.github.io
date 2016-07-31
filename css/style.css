@@ -83,8 +83,14 @@ third row
 
 .fast-track-item {
   margin-top: 1em;
-  text-transform: uppercase;
+}
 
+.fast-track-item h4{
+    text-transform: uppercase;
+}
+
+.fast-track-item p {
+  font-size: 12px;
 }
 
 .fast-track-item .col-xs-12 {
