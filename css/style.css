@@ -1,3 +1,7 @@
+/*=====================
+utility / body
+======================*/
+
 body {
   background-image: url("../images/sag.png");
 }
@@ -15,6 +19,7 @@ body {
   margin-bottom: 2em;
   padding-bottom: 1em;
 }
+
 /*=====================
 top row
 ======================*/
@@ -23,12 +28,12 @@ top row
   background-image: url("../images/tactile_noise.png");
 }
 
+
 .background-white {
   background-color: white;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
-
 
 .logo {
   padding: 3px;
@@ -75,12 +80,18 @@ second row
   box-shadow: 1px 1px 1px rgba(0,0,0,0.7);
 }
 
-
 /*=====================
 third row
 ======================*/
 .row-3 {
   margin-bottom: 1em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-3 > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
 }
 
 .fast-track-item {
@@ -97,6 +108,7 @@ third row
 
 .fast-track-item .col-xs-12 {
   border: 3px solid black;
+  height: 100%;
 }
 
 .fast-track-item .col-xs-12:hover {
