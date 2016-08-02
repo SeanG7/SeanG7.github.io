@@ -34,7 +34,6 @@ top row
   background: linear-gradient(to right, #B102EB, #610480);
 }
 
-
 .header-container {
   padding-left: 1px;
   padding-right: 1px;
@@ -118,10 +117,12 @@ third row
 .fast-track-item .col-xs-12 {
   border: 1px solid #B102EB;
   height: 100%;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.7);
 }
 
 .fast-track-item .col-xs-12:hover {
   transform: scale(1.1);
+  box-shadow: 2px 1px 3px rgba(0,0,0,0.5);
 }
 
 
