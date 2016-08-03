@@ -1,10 +1,10 @@
 /*=====================
 utility / body
 ======================*/
-@import 'https://fonts.googleapis.com/css?family=Quicksand';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
 
 h1, h2, h3, h4 {
-  font-family: Quicksand;
+  font-family: Open Sans;
 }
 
 
@@ -39,7 +39,7 @@ top row
   padding-right: 1px;
 }
 
-.header .col-2 h1, h2 {
+.header-grab h1, .header-grab h2 {
   font-weight: bold;
 }
 
@@ -63,7 +63,7 @@ second row
 ======================*/
 .row-2 {
   margin-top: 1em;
-  background-image: url("../images/header.jpg");
+  background-image: url("../images/header1.jpg");
   background-size: cover;
 }
 
@@ -74,7 +74,7 @@ second row
   margin: 1em;
   padding: 1em;
   border: 1px solid #B102EB;
-  box-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+  overflow: hidden;
 }
 
 /*=====================
@@ -106,12 +106,10 @@ third row
 .fast-track-item .col-xs-12 {
   border: 1px solid #B102EB;
   height: 100%;
-  box-shadow: 1px 1px 1px rgba(0,0,0,0.7);
 }
 
 .fast-track-item .col-xs-12:hover {
   transform: scale(1.1);
-  box-shadow: 2px 1px 3px rgba(0,0,0,0.5);
 }
 
 
@@ -173,7 +171,6 @@ fifth row
   border: 1px solid #B102EB;
   margin-bottom: 1em;
   background-color: white;
-  box-shadow: 1px 1px 1px #888888;
 }
 
 .prof-container div img {
