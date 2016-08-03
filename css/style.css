@@ -39,6 +39,10 @@ top row
   padding-right: 1px;
 }
 
+.header .col-2 h1, h2 {
+  font-weight: bold;
+}
+
 .background-white {
   background-color: white;
   margin-top: 1px;
@@ -52,21 +56,6 @@ top row
 .logo-follow {
   margin-top: 2.2em !important;
   margin-bottom: 2.2em !important;
-}
-
-.header .col-1 {
-  background-color: #888;
-}
-
-.start-large {
-  text-decoration: underline;
-}
-
-.start-large::first-letter {
-  font-size: 200%;
-  float:left;
-  line-height: 45px;
-  text-decoration: none;
 }
 
 /*=====================
